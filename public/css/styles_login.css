@@ -1,0 +1,121 @@
+/*************
+    Generaly
+**************/
+
+@font-face {
+    font-family: Candy_putri;
+    src: url(../font/Candy_putri/CANDY\ PUTRI.ttf);
+    font-weight: 100;
+}
+
+*{
+    font-family: Candy_putri;
+    box-sizing: border-box;
+    font-family: 20px;
+}
+
+
+/*************
+    Body
+**************/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    background: #F8E8EE;
+}
+
+form{
+    width: 450px;
+    padding: 3.5rem;
+    background-color: #FDCEDF;
+    border: none;
+    border-radius: 20px;
+    color: #f90961;
+}
+
+h1{
+    display: block;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-align: center;
+    width: 95%;
+    padding: 2px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+label{
+    color: #f90961;
+    font-size: 20px;
+    padding: 10px;
+}
+
+input{
+    display: block;
+    border: 2px solid rgba(0, 0, 0, 0.273);
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+button{
+    float: right;
+    background-color: #fc88b2;
+    padding: .5rem;
+    color: white;
+    border: none;
+    width: 40%;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+button:hover{
+    background: #F8E8EE;
+    color: black;
+}
+
+a{
+    float: left;
+    margin-left: 10px;
+    padding: .5rem;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+    color: white;
+}
+
+.error{
+    background-color: rgba(255, 0, 0, 0.234);
+    color: black;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.success{
+    background-color: rgba(0, 128, 0, 0.378);
+    color: black;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+
+@media (max-width: 500px){
+    form{
+        width: 100%;
+        padding: 2rem;
+    }
+}

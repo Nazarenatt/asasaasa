@@ -1,0 +1,69 @@
+/*************
+    General
+**************/
+
+@font-face {
+    font-family: Candy_putri;
+    src: url(../font/Candy_putri/CANDY\ PUTRI.ttf);
+    font-weight: 100;
+}
+
+
+html{
+    background: #F8E8EE;
+    align-items: center;
+}
+
+/**********
+    Main
+***********/
+
+.return{
+    margin-left: 40px;
+    font-size: 16px;
+    color: #f690b5;
+}
+
+.box{
+    background: #FDCEDF;
+    margin: 20px;
+    padding: 10px;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+h2{
+    margin: 20px;
+    font-size: 23px;
+    text-decoration:underline;
+}
+
+p{
+    font-size: 18px;
+    margin: 25px;
+}
+
+
+p span{
+    text-decoration: underline;
+}
+
+.support{
+    margin: 20px;
+    width: 500px;
+}
+
+.support a{
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    color: #f690b5;
+}
+
+a:hover{
+    color: aliceblue;
+}
